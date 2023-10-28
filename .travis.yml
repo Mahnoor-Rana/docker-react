@@ -5,7 +5,7 @@ services :
 
 
 before_install:
-  - docker build  -t Dev01/docker-react -f Docker.dev builds
+  - docker build  -t Dev01/docker-react -f Docker.dev .
 
 
 script:
