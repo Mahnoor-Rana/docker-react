@@ -4,7 +4,7 @@ services :
   
 
 
-before_install:
+before:
   - docker build  -t Dev01/docker-react -f Docker.dev .
 
 
