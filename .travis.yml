@@ -8,5 +8,5 @@ before_install:
   - docker build  -t Dev01/docker-react -f Docker.dev .
 
 
-script-before:
+script:
   - docker run -e CI=true dev01/docker-react npm run test
