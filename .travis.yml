@@ -5,8 +5,7 @@ services :
 
 
 before_install:
-  - docker build  -t Dev01/docker-react -f Docker.dev .
-
+  - docker build  -t Dev01/docker-react -f Docker.de..
 
 script:
   - docker run -e CI=true dev01/docker-react npm run test
