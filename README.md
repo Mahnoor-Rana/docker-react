@@ -1,2 +1,3 @@
 # docker-react
-how do run files on docker 
+- How do run files on docker
+- commands 
