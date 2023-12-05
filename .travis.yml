@@ -1,4 +1,4 @@
-dssudo : required
+sudo : required
 services :
   - docker 
   
