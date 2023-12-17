@@ -1,2 +1,3 @@
 # docker-react
+update commands 
 
