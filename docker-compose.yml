@@ -19,5 +19,5 @@ services:
     command: ["npm", "run", "test"]
 
 
-    # we also have to porvide netwrok
+    # we also have to porvide network
 
