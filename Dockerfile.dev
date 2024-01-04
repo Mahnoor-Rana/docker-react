@@ -6,6 +6,6 @@ COPY package.json .
 
 RUN npm install
 
-COPY . .
+COPY . . # copy all files from locol to docker 
 
 CMD [ "npm","run","start"]
