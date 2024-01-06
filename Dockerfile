@@ -4,7 +4,7 @@ WORKDIR '/app'
 COPY package.json .
 RUN npm install 
 
-COPY . . 
+COPY . . # copy all the files locally in docker
 RUN npm run 
 
 FROM Ngnix 
