@@ -1,11 +1,11 @@
-FROM node:16-alpine
+FROM node:16-alpine #library
 
 WORKDIR /app
 
 COPY package.json .
 
-RUN npm install # for installing 
+RUN npm install #for installing 
 
-COPY . . # copy all files from locol to docker 
+COPY . . #copy all files from locol to docker 
 
 CMD [ "npm","run","start"] #for running 
