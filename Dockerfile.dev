@@ -3,7 +3,7 @@ FROM node:16-alpine #library
 
 WORKDIR /app
 
-COPY package.json . #copy pckage dile
+COPY package.json . #copy package.json file from local to docker 
 
 RUN npm install #for installing 
 
