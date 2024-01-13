@@ -6,9 +6,9 @@ services:
       dockerfile: Dockerfile.dev #buidling docker file
     ports:
       - "3000:3000"
-    volumes:
+    volumes: # persistent storage location that exists outside of the container
       - /app/node_modules
-      - .:/app
+      - .:/app   
   tests:
     build:
       context: .
