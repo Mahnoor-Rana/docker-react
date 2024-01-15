@@ -1,7 +1,7 @@
 
 FROM node:16-alpine #library
 
-WORKDIR /app #working dirrcetory 
+WORKDIR /app #working directory  
 
 COPY package.json . #copy package.json file from local to docker 
 
