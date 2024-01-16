@@ -1,5 +1,5 @@
 sudo : required
-services :# proving
+services :# provding service
   - docker
   
 before install : #installing 
