@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev #buidling docker file
-    ports:
+    ports:#specify ports
       - "3000:3000"
     volumes: # persistent storage location that exists outside of the container
       - /app/node_modules
