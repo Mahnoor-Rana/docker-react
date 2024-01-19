@@ -9,7 +9,7 @@ services:
     volumes: # persistent storage location that exists outside of the container
       - /app/node_modules
       - .:/app   
-  tests:
+  tests: # testing start
     build:
       context: .
       dockerfile: Dockerfile.dev
