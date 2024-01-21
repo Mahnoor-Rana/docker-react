@@ -7,6 +7,6 @@ COPY package.json . #copy package.json file from local to docker
 
 RUN npm install #for installing 
 
-COPY . . #copy all files from locol to docker 
+COPY .  #copy all files from locol to docker 
 
 CMD [ "npm","run","start"] #for running 
