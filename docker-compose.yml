@@ -16,7 +16,7 @@ services:
     volumes: # persistent storage location that exists outside of the container
       - /app/node_modules
       - .:/app
-    command: ["npm", "run", "test"]
+    command: ["npm", "run", "test"] #command for running 
 
 
     # we also have to provide network
