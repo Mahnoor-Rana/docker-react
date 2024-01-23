@@ -7,5 +7,5 @@ RUN npm install #for running and installing npm
 COPY . . # copy all the files locally in docker
 RUN npm run #for running 
 
-FROM Ngnix 
+FROM Ngnix #
 COPY --from=builder /app/build /usr/share/nginx/html
