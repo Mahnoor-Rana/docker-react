@@ -1,4 +1,4 @@
-FROM node:16-alpine as builder #Node package 
+FROM node:16-alpine as builder #from Node package 
 
 WORKDIR '/app' # building 
 COPY package.json . #copy file (pkg json) from local into docker 
