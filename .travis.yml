@@ -1,5 +1,5 @@
 sudo : required #terminal differences 
-services :# provding service
+services : # provding service
   - docker # where we can run our apps , install software 
   
 before install : #installing 
