@@ -7,7 +7,7 @@ services:
     ports:#specify ports
       - "3000:3000"
     volumes: # persistent storage location that exists outside of the container
-      - /app/node_modules
+      - /app/node_modules # packages
       - .:/app   
   tests: # testing start
     build:
