@@ -1,3 +1,5 @@
+
+# docker file
 FROM node:16-alpine as builder #from Node package 
 
 WORKDIR '/app' # building 
