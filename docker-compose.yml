@@ -19,5 +19,5 @@ services:
     command: ["npm", "run", "test"] #command for running 
 
 
-    # we also have to provide network
+    # we also have to provide network like 
 
