@@ -1,5 +1,5 @@
 version: '3' # specify versions
-services:
+services: # services 
   web:
     build: # build docker image 
       context: .
