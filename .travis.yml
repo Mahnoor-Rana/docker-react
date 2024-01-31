@@ -1,4 +1,4 @@
-sudo : required #terminal differences 
+sudo : required # terminal differences 
 services : # provding service
   - docker # where we can run our apps , install software 
   
