@@ -20,5 +20,5 @@ services: # services that app uses
 
 
     # we also have to provide network like 
-    # networks : 
+    # networks
 
