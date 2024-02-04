@@ -1,2 +1,2 @@
-# docker-react
-dockerized
+# dockererized react
+dockerized react app
