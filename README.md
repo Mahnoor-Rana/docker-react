@@ -5,4 +5,4 @@
 - To run your Dockerized React app, use `docker run -p 3000:3000 your-react-app-name`, ensuring the app is accessible on `http://localhost:3000`.
 
 <b>Production Deployment<b>
-- For production deployment, the Docker container serves the React app using Nginx. Theis defined in the Dockerfile. Ensure you have the proper environment variables and configurations set for production.
+- For production deployment, the Docker container serves the React app using Nginx. The setup is defined in the Dockerfile. Ensure you have the proper environment variables and configurations set for production.
