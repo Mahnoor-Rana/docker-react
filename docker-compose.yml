@@ -4,7 +4,7 @@ services: # services that app uses
     build: # build docker image 
       context: .
       dockerfile: Dockerfile.dev #build dockerfile 
-    ports:#specify ports
+    ports:
       - "3000:3000"
     volumes: # persistent storage location that exists outside of the container
       - /app/node_modules # packages
