@@ -1,6 +1,6 @@
 sudo : required # terminal differences 
 services : # provding service
-  - docker 
+  - docker # it is a software framework for building, running, and managing container.
   
 before install : #installing 
   - docker build  -t dev01/docker-react -f Docker.dev # command for building image 
