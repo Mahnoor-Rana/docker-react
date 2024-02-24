@@ -1,6 +1,6 @@
 sudo : required # terminal differences 
 services : # provding service
-  - docker # where we can run our apps , install software 
+  - docker 
   
 before install : #installing 
   - docker build  -t dev01/docker-react -f Docker.dev # command for building image 
