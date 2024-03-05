@@ -9,7 +9,6 @@ COPY package.json . #copy package.json file from local to docker
 RUN npm install 
 
 COPY . . #copy all files from locol to docker 
-
-CMD [ "npm","run","start"] #Command for running 
+# we give here envirnoment CMD [ "npm","run","start"] #Command for running 
 
 #volumes :
