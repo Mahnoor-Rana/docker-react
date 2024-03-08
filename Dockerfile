@@ -9,8 +9,8 @@ COPY . . # copy all the files locally in docker
 RUN npm run # running command
 
 FROM Ngnix #NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more
-COPY --from=builder /app/build /usr/share/nginx/html
-
+COPY --from=builder /app/build /usr/share/nginx/html # copy from given path
+ 
 
 
 
