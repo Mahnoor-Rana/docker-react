@@ -5,7 +5,7 @@ WORKDIR '/app' #building
 COPY package.json . #copy file (pkg json) from local into docker 
 RUN npm install #for running and installing npm
 
-COPY . . # copy all the files locally in docker
+COPY . . # Copy files from 
 RUN npm run # running command
 
 FROM Ngnix #NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more
