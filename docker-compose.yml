@@ -2,7 +2,7 @@ version: '3' # specify versions
 services: # services that app uses
   web:
     build: # build docker image 
-      context: .
+      context: . # . represents  location from we have to copy or wherer 
       dockerfile: Dockerfile.dev #build dockerfile (dockerfile.dev is same file as we create yml file)
 
   #envirnoment variables
