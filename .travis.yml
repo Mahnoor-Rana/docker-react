@@ -1,4 +1,4 @@
-sudo : required # terminal differences 
+sudo : required # sudo is a program
 services : # provding service
   - docker # it is a software framework for building, running, and managing container.
   
