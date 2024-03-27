@@ -12,7 +12,7 @@ __pycache_
 # production / docker
 /build
 
-# misc
+# misc miscallaneous
 .DS_Store
 .env.local
 .env.development.local
