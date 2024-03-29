@@ -13,6 +13,7 @@ __pycache_
 /build
 
 # misc miscellaneous
+# local
 .DS_Store
 .env.local
 .env.development.local
