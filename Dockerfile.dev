@@ -6,7 +6,7 @@ WORKDIR /app #working directory
 COPY package.json . #copy package.json file from local to docker 
 
 #for installing 
-RUN npm install  # for inst
+RUN npm install  # for installing 
 
 COPY . . #copy all files from locol to docker 
 # we give here envirnoment variables 
