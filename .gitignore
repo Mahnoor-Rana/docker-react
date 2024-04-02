@@ -5,11 +5,13 @@ __pycache_
 /node_modules
 /.pnp
 .pnp.js
-.env 
+
+
 # testing
 /coverage
 
-# production / docker
+# production levels 
+/ docker
 /build
 
 # misc miscellaneous
