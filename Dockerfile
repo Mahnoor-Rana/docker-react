@@ -2,7 +2,7 @@
 FROM node:16-alpine as builder #from Node package 
 
 WORKDIR '/app' # working directory that automatically creates
-COPY package.json . #copy file (pkg json) from local into docker 
+COPY package.json . #copy file (package) from local into docker 
 RUN npm install #for running and installing npm
 
 COPY . . # Copy files from local
