@@ -5,6 +5,7 @@ WORKDIR '/app' # working directory that automatically creates
 COPY package.json . #copy file (package) from local into docker 
 RUN npm install #for running and installing npm
 
+# copy files from the current directory and paste in the docker 
 COPY . . 
 RUN npm run # run command npm
 
