@@ -1,6 +1,6 @@
 # .travis.yml is a short guide to using Travis CI with your cloud platform-hosted code repository
 sudo : required # sudo is a program for Unix-like computer operating systems that 
-# enables users to run programs with the security privileges of another user,
+                # enables users to run programs with the security privileges of another user,
 services : # provding service
   - docker # software for builing and running containers
   
