@@ -6,7 +6,7 @@ COPY package.json . #copy file (package) from local into docker
 RUN npm install #for running and installing npm
 
 # copy files from the current directory and paste in the docker 
-# Node package manager
+# Node package manager (npm)
 COPY . . 
 RUN npm run # run command npm
 
