@@ -5,7 +5,7 @@ services : # provding service
   - docker # software for builing and running containers
   
 before install : #this command run before installing docker
-  - docker build  -t dev01/docker-react -f docker. # command for building image 
+  - docker build  -t dev01/docker-react -f docker.dev # command for building image 
 script : #python script for running
   - docker run -e CI=true dev01/docker-react npm run test # testing 
 
