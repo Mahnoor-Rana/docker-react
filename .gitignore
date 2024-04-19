@@ -23,7 +23,7 @@ __pycache_
 .env.production.local
 .env 
 
-# ogs
+# logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
