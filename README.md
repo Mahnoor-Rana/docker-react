@@ -1,4 +1,4 @@
-# Dockerized react
+# Dockerized react app
 
 <b>Docker Build & Run <b>
 - To build the Docker image, run `docker build -t your-react-app-name (your app name here).` in the terminal, replacing `your-react-app-name` with the name you want for your Docker image.
