@@ -13,7 +13,7 @@ __pycache_
 # production levels 
 / docker
 /build
-
+# included all environment varisables as well
 # misc miscellaneous
 # local
 .DS_Store
