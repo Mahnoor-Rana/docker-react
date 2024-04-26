@@ -1,7 +1,7 @@
 #dockerfile
 FROM node:16-alpine as builder #from Node package 
 
-WORKDIR '/app' # working directory that automatically creates
+WORKDIR '/app' # working directory that automatically creates in docker 
 COPY package.json . #copy file (package) from local into docker 
 # npm : node package manager 
 RUN npm install  # for running and installing npm
