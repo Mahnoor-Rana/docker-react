@@ -4,7 +4,7 @@ sudo : required # sudo is a program for Unix-like computer operating systems tha
 services : # provding service
   - docker # software for builing and running containers
   
-before install : #this command run before installing docker
+before install : # run before installing
   - docker build  -t dev01/docker-react -f docker.dev # command for building image 
 script : #python script for running
 # testing
