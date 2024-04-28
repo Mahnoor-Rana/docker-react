@@ -2,7 +2,7 @@
 # these files  are not pushed in repository
 # dependencies
 __pycache_
-/node_modules
+/node_modules (when nstallings npm)
 /.pnp
 .pnp.js
 
