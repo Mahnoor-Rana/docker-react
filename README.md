@@ -1,4 +1,4 @@
-# React application Dockerized
+# Dockerized React application 
 
 
 <b>Docker Build & Run <b>
@@ -7,3 +7,4 @@
 
 <b>Production Deployment<b>
 - For production deployment, the Docker container serves the React app using Nginx. The setup is defined in the Dockerfile. Ensure you have the proper environment variables and configurations set for deployment/production.
+# you have to use other different command to run docker 
