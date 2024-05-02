@@ -1,4 +1,4 @@
-# Dockerized react application
+# React application Dockerized
 
 
 <b>Docker Build & Run <b>
