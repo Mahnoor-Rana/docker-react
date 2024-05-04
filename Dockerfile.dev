@@ -11,8 +11,9 @@ COPY package.json .
 #for installing 
 RUN npm install  # for installing 
 
-COPY . . #copy all files from local  to docker 
-# we give here envirnoment variables 
+COPY . . 
+#copy all files from local  to docker 
+#we give  envirnoment variables 
  #environment:
      # OPENAI_API_KEY: ${OPENAI_API_KEY} # pass openai api key 
 CMD [ "npm","run","start"] #Command for running 
