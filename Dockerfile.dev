@@ -2,7 +2,7 @@
 FROM node:16-alpine 
 
 # working directory 
-WORKDIR /app  # docker creates this 
+WORKDIR /app  # docker creates this and all your project will be stored in this director
 
 # copy package .json file 
 
@@ -12,7 +12,7 @@ COPY package.json .
 RUN npm install  # for installing 
 
 COPY . . 
-#copy all files from local  to docker 
+# copy all files from local  to docker 
 #we give  envirnoment variables 
  #environment:
      # OPENAI_API_KEY: ${OPENAI_API_KEY} # pass openai api key 
