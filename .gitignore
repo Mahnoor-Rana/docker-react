@@ -14,8 +14,7 @@ __pycache_ # for chache
 / docker
 /build
 # included all environment variables as well, misc miscellaneous, local
-# 
-# 
+ 
 .DS_Store
 .env.local
 .env.development.local
@@ -23,7 +22,7 @@ __pycache_ # for chache
 .env.production.local
 .env 
 
-# logs
+# logs, including docker logs 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
