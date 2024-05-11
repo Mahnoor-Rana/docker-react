@@ -13,9 +13,9 @@ __pycache_ # for chache
 # production levels 
 / docker
 /build
-# included all environment variables as well
-# misc miscellaneous
-# local
+# included all environment variables as well, misc miscellaneous, local
+# 
+# 
 .DS_Store
 .env.local
 .env.development.local
