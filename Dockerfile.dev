@@ -10,7 +10,7 @@ WORKDIR /app  # docker creates this and all your project will be stored in this 
 COPY package.json . 
 
 # for installing 
-RUN npm install  # for installing  npm ( node modules )
+RUN npm install  # for installing  npm ( node packages)
 
 COPY . . 
 # copy all files from local  to docker 
