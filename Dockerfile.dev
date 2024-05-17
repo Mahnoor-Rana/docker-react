@@ -1,5 +1,5 @@
 # This Dockerfile uses the Node.js 16 Alpine image as its base.
-FROM node:16-alpine (base image beacause its size is msmall as compared to other ones)
+FROM node:16-alpine (base image because its size is small as compared to other ones)
 
 # working directory 
 WORKDIR /app  # docker creates this and all your project will be stored in this directory
