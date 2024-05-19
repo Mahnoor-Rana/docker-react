@@ -1,5 +1,5 @@
 #dockerfile 
-FROM node:16-alpine as builder # alpine is an docker image which has small size
+FROM node:16-alpine as builder # alpine is an docker image which is smaler in size thats why it is used mostly
 
 WORKDIR '/app' # working directory that automatically creates in docker 
 COPY package.json . #copy file (package) from local into docker 
